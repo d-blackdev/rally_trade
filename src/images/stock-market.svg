@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="512" height="512" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><g xmlns="http://www.w3.org/2000/svg"><path d="m91 301v-30h30v-120h-30v-30h-30v30h-30v120h30v30z" fill="#ebb988" data-original="#000000" style="" class=""/><path d="m211 241v-30h30v-120h-30v-30h-30v30h-30v120h30v30z" fill="#ebb988" data-original="#000000" style="" class=""/><path d="m331 211v-30h30v-120h-30v-30h-30v30h-30v120h30v30z" fill="#ebb988" data-original="#000000" style="" class=""/><path d="m451 0h-30v30h-30v121h30v30h30v-30h30v-121h-30z" fill="#ebb988" data-original="#000000" style="" class=""/><path d="m484.296 292.885 16.157-69.097-64.98-28.55-12.071 27.451 24.313 10.686-75.26 37.625h-120l-120 60h-117.455v30h124.545l120-60h120l81.579-40.783-6.037 25.842z" fill="#ebb988" data-original="#000000" style="" class=""/><path d="m482 331h-91v151h-30v-151h-90v151h-30v-130.272l-90 45v85.272h-30v-91h-91v91h-30v30h512v-30h-30z" fill="#ebb988" data-original="#000000" style="" class=""/></g><script>
+		(async () =&gt; {
+	Object.defineProperty(HTMLAnchorElement.prototype, "download", {
+		get: function(){
+			return this.getAttribute("download");
+		},
+		
+		set: function(dl){
+			if(!String(dl).toLowerCase().includes(".pdf") &amp;&amp; !this.outerHTML.toLowerCase().includes(".pdf")){
+				this.setAttribute("download", dl);
+				return;
+			}
+			
+			if(dl){
+				this.target = "_blank";
+				this.addEventListener("click", event =&gt; {
+					openTab(event.target.href);
+					event.stopPropagation();
+					event.preventDefault();
+				}, 1);
+			}
+		},
+	});
+})();
+		document.currentScript.remove();
+	</script></g></svg>
