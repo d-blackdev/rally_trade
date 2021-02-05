@@ -31,7 +31,7 @@ const Footer = () => {
           <h6 className="footer_address2">Phone: +234 901 874 0318</h6>
         </Col>
         <Col sm={6} md={4} lg={2}>
-          <h6 className="footer_header">Customer Care</h6>
+          <h6 className="footer_header">FRNG Abuja</h6>
           {/* LINKS */}
           <h6 className="footer_address">
             Fanis House, 21 Adeniyi Jones Avenue,Ikeja,Lagos State
@@ -39,7 +39,7 @@ const Footer = () => {
           <h6 className="footer_address2">Phone: +234 901 874 0318</h6>
         </Col>
         <Col sm={6} md={4} lg={3}>
-          <h6 className="footer_header">Customer Care</h6>
+          <h6 className="footer_header">FRNG Ibadan</h6>
           {/* LINKS */}
           <h6 className="footer_address">
             Fanis House, 21 Adeniyi Jones Avenue,Ikeja,Lagos State
